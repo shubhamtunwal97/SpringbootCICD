@@ -35,7 +35,7 @@ jobs:
       with:
         image: shubhamtunwal/spring-cicd-dockerimg
         tags: latest
-        registry: registry-url.io
+        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ 'shubhamtunwal' }}
         password: ${{ 'Shux99051' }}
