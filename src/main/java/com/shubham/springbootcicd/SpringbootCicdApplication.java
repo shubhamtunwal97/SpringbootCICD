@@ -12,7 +12,7 @@ public class SpringbootCicdApplication {
     @GetMapping("/welcome")
 
     public String welcome(){
-        return "Welcome to my Spring CICD - test ";
+        return "Welcome to my Spring CICD -  ";
     }
 
     public static void main(String[] args) {
